@@ -3,7 +3,7 @@ import userModel from "./src/models/user.js"
 import connectdb from "./src/config/db.js";
 import eventModel from "./src/models/Events.js"
 import fetch from "node-fetch"; // Import node-fetch library
-const bot = new Telegraf("8184087570:AAGkkmppo56pqNkIqRNwHvs8E_9yDPkZJbY");
+const bot = new Telegraf("");
 
 try {
   connectdb();
